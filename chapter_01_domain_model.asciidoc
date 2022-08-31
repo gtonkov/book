@@ -659,6 +659,7 @@ example, mathematical operators:
 ----
 fiver = Money('gbp', 5)
 tenner = Money('gbp', 10)
+tenner = Money('gbp', 10)
 
 def can_add_money_values_for_the_same_currency():
     assert fiver + fiver == tenner

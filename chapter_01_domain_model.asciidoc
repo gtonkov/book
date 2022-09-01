@@ -540,6 +540,8 @@ class Batch:
         self.sku = sku
         self.reference = ref
         self._purchased_quantity = qty
+        
+batch = Batch(Reference("batch-001"), Sku("SMALL_TABLE"), Quantity(20))
 ----
 ====
 
